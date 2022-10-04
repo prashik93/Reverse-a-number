@@ -10,7 +10,12 @@ while num>0:
     count+=1
 
 print(rev)
-print(count)
+#print(count)
 
-same_position=(count+1)/2
-print(same_position)
+if count%2==0:
+    print("All numbers changes their position")
+else:
+    same_position=(count+1)/2
+    print("The position number",same_position, "does not change his position")
+
+
